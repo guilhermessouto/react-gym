@@ -1,0 +1,32 @@
+.header_infos {
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.header_infos .info_number {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.header_infos .info_number svg {
+  color: #fff;
+  font-size: 1.8em;
+  margin-right: 10px;
+}
+
+.header_infos .info_number span {
+  color: #fff;
+  font-size: 1.7em;
+}
+
+.header_infos .info_text p {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+@media(max-width: 450px) {
+  .header_infos {
+    width: 186px;
+  }
+}

@@ -1,0 +1,114 @@
+:root {
+  --orange_one: #fd5631;
+  --orange_two: #fd7e14;
+}
+
+header {
+  background-image: linear-gradient(to right, #555, #444, #333);
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .header_main_container {
+  width: 100%;
+}
+
+header .header_text {
+  padding: 50px;
+  padding-top: 25px;
+}
+
+header .header_main_container .text_h1 h1{
+  font-size: 3.5em;
+  text-transform: uppercase;
+  color: #f7750b;
+  line-height: 85px;
+}
+
+header .header_main_container .text_h1 h1 span {
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #fff;
+  color: transparent;
+}
+
+header .header_main_container .text_p p {
+  margin-top: 35px;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+header .header_main_container .infos {
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+}
+
+header .header_main_container .header_buttons {
+  padding: 50px;
+  padding-top: 40px;
+}
+
+header .header_bg_container {
+  background-color: #f7750b;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header .header_bg_container a svg {
+  color: #fff;
+  margin: 10px 0;
+  font-size: 1.8em;
+}
+
+header .header_bg_container p {
+  color: rgb(231, 231, 231);
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+@media (max-width: 740px) {
+  header .header_main_container .text_h1 h1 {
+    font-size: 2.5em;
+    line-height: 65px;
+  }
+
+  header .header_main_container .text_p p {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 600px) {
+  header .header_main_container .text_h1 h1 {
+    text-align: center;
+  }
+
+  header .header_main_container .text_p p {
+    text-align: center;
+  }
+
+  header .header_bg_container {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  header .header_text {
+    padding: 25px;
+  }
+
+  header .header_main_container .text_h1 h1 {
+    font-size: 2em;
+    line-height: 50px;
+  }
+
+  header .header_main_container .infos {
+    padding: 0 20px;
+    flex-wrap: wrap;
+  }
+}

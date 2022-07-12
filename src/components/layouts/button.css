@@ -1,0 +1,21 @@
+.header_button_one {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f7750b;
+  color: #fff;
+  font-size: .9em;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.header_button_two {
+  padding: 8.8px 20px;
+  border: 2px solid #f7750b;
+  background-color: transparent;
+  color: #fff;
+  font-size: .9em;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 4px;
+}
