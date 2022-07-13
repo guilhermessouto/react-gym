@@ -1,0 +1,39 @@
+.check_text {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.check_text_model_one svg {
+  margin-right: 10px;
+  font-size: 1.9em;
+  color: #f7750b;
+}
+
+.check_text_model_one p {
+  color: #fff;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+@media (max-width: 510px) {
+  .check_text_model_one svg {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 465px) {
+  .check_text_model_one p {
+    font-size: .85em;
+  }
+}
+
+@media (max-width: 405px) {
+  .check_text_model_one svg {
+    font-size: 1.3em;
+  }
+
+  .check_text_model_one p {
+    font-size: .8em;
+  }
+}

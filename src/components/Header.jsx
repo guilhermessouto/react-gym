@@ -1,9 +1,9 @@
 import Navbar from "./Navbar"
 import HeaderInfo from "./layouts/HeaderInfo"
 import Social from "./layouts/Social"
+import Button from "./layouts/Button"
 
 import './header.css'
-import Button from "./layouts/Button"
 
 const Header = () => {
   return (
@@ -24,39 +24,42 @@ const Header = () => {
           </div>
         </div>
         
-        <div className="infos">
-          <HeaderInfo
-            number={140}
-            text={'Expert coaches'}
-          />
-
-          <HeaderInfo
-            number={978}
-            text={'Members joined'}
-          />
-
-          <HeaderInfo
-            number={50}
-            text={'Fitness programs'}
-          />
-        </div>
-
-        <div className="header_buttons">
-          <Button 
-            className={'header_button_one'}
-            text='Get Started'
-          />
-
-          <Button 
-            className={'header_button_two'}
-            text='Learn More'
-          />
+        <div className="infos_buttons">
+          <div className="infos">
+            <HeaderInfo
+              number='140'
+              text='Expert coaches'
+            />
+            <HeaderInfo
+              number='978'
+              text='Members joined'
+            />
+            <HeaderInfo
+              number='50'
+              text='Fitness programs'
+            />
+          </div>
+          <div className="header_buttons">
+            <Button
+              className='button_model_one'
+              text='Get Started'
+            />
+            <Button
+              className='button_model_two'
+              text='Learn More'
+            />
+          </div>
         </div>
       </div>
 
 
       <div className='header_bg_container'>
         <Social />
+
+        <p>
+          The <br />
+          Fit Club
+        </p>
       </div>
     </header>
   )

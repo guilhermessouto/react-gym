@@ -2,16 +2,14 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const Social = () => {
   return (
-    <>
-      <a href="#">
-          <FaGithub />
-        </a>
+      <span>
         <a href="#">
-          <FaLinkedin />
-        </a>
-
-        <p>The <br /> Fit club</p>
-    </>
+            <FaGithub />
+          </a>
+          <a href="#">
+            <FaLinkedin />
+          </a>
+      </span>
   )
 }
 

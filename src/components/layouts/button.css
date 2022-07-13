@@ -1,4 +1,4 @@
-.header_button_one {
+.button_model_one {
   padding: 10px 20px;
   border: none;
   background-color: #f7750b;
@@ -9,12 +9,41 @@
   margin: 4px;
 }
 
-.header_button_two {
+.button_model_two {
   padding: 8.8px 20px;
   border: 2px solid #f7750b;
   background-color: transparent;
   color: #fff;
   font-size: .9em;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.button_model_three {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1em;
+}
+
+.button_model_four {
+  padding: 10px 20px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  font-size: .9em;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.button_model_five {
+  padding: 10px 20px;
+  border: none;
+  background-color: #fff;
+  color: #f05f0b;
+  font-size: 1em;
   font-weight: bolder;
   cursor: pointer;
   margin: 4px;

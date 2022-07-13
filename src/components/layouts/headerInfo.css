@@ -25,8 +25,44 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 740px) {
+  .header_infos .info_number svg {
+    font-size: 1.4em;
+  }
+
+  .header_infos .info_number span {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 600px) {
+  .header_infos {
+    text-align: center;
+    width: 165px;
+  }
+
+  .header_infos .info_number {
+    justify-content: center;
+  }
+}
+
 @media(max-width: 450px) {
   .header_infos {
     width: 186px;
+  }
+  .header_infos .info_number {
+    justify-content: flex-start;
+  }
+
+  .header_infos .info_number svg {
+    font-size: 1.2em;
+  }
+
+  .header_infos .info_number span {
+    font-size: 1.3em;
+  }
+
+  .header_infos .info_text p {
+    font-size: .95em;
   }
 }

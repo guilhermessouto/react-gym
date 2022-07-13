@@ -1,10 +1,7 @@
-:root {
-  --orange_one: #fd5631;
-  --orange_two: #fd7e14;
-}
-
 header {
   background-image: linear-gradient(to right, #555, #444, #333);
+  max-width: 1600px;
+  margin: auto;
   height: 100vh;
   display: flex;
   justify-content: space-between;
@@ -15,8 +12,7 @@ header .header_main_container {
 }
 
 header .header_text {
-  padding: 50px;
-  padding-top: 25px;
+  padding: 25px 25px 35px 50px;
 }
 
 header .header_main_container .text_h1 h1{
@@ -41,12 +37,11 @@ header .header_main_container .text_p p {
 header .header_main_container .infos {
   padding: 0 40px;
   display: flex;
-  align-items: center;
 }
 
 header .header_main_container .header_buttons {
-  padding: 50px;
-  padding-top: 40px;
+  display: flex;
+  padding: 35px 50px 0 50px;
 }
 
 header .header_bg_container {
@@ -56,6 +51,11 @@ header .header_bg_container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+header .header_bg_container span {
+  display: flex;
+  flex-direction: column;
 }
 
 header .header_bg_container a svg {
@@ -70,6 +70,23 @@ header .header_bg_container p {
   font-size: 1.5em;
   font-weight: bolder;
   margin-top: 10px;
+}
+
+@media (max-width: 1150px) {
+  header .header_main_container .text_p p {
+    margin-top: 20px;
+  }
+
+  header .header_main_container .header_buttons {
+    padding-top: 25px;
+  }
+}
+
+@media (max-width: 905px) {
+  header .header_text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }
 
 @media (max-width: 740px) {
@@ -91,24 +108,45 @@ header .header_bg_container p {
   header .header_main_container .text_p p {
     text-align: center;
   }
+  header .header_main_container .infos {
+    justify-content: center;
+  }
+
+  header .header_main_container .header_buttons {
+    display: flex;
+    justify-content: center;
+  }
 
   header .header_bg_container {
     display: none;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 435px) {
   header .header_text {
     padding: 25px;
   }
 
   header .header_main_container .text_h1 h1 {
-    font-size: 2em;
+    font-size: 2.2em;
     line-height: 50px;
   }
 
+  .infos_buttons {
+    display: flex;
+  }
+
   header .header_main_container .infos {
-    padding: 0 20px;
+    padding: 0 10px;
     flex-wrap: wrap;
+  }
+
+  header .header_main_container .header_buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px 0 0;
+    width: 100%;
   }
 }

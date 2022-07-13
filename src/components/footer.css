@@ -1,0 +1,14 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  padding: 20px 0;
+  border-top: 3px solid rgb(126, 126, 126);
+}
+
+footer span a svg {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.8em;
+}
