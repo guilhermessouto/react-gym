@@ -1,5 +1,8 @@
+
+
 main {
   padding: 0 50px;
+  background-image: linear-gradient(to right, #555, #444, #333);
 }
 
 @media (max-width: 560px) {

@@ -2,9 +2,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 35px;
   padding: 20px 0;
   border-top: 3px solid rgb(126, 126, 126);
+  background-image: linear-gradient(to right, #555, #444, #333);
 }
 
 footer span a svg {

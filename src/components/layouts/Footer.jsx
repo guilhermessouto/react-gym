@@ -1,5 +1,5 @@
 import './footer.css'
-import Social from './layouts/Social'
+import Social from './Social'
 
 const Footer = () => {
   return (

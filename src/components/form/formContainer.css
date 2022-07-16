@@ -1,0 +1,7 @@
+.form_container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 365px;
+  border: 1px solid #222;
+}

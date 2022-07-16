@@ -44,6 +44,7 @@ nav ul li a {
   color: rgb(231, 231, 231);
   border-radius: 5px;
   padding: 7px;
+  cursor: pointer;
 }
 
 nav ul li a:hover {
@@ -59,7 +60,7 @@ nav ul .signup a {
 @media (max-width: 900px) {
   nav .hamburguer {
     display: flex;
-    position: absolute;
+    position: fixed;
     right: 50px;
   }
 
@@ -71,7 +72,7 @@ nav ul .signup a {
     flex-direction: column;
     justify-content: space-between;
     width: 200px;
-    position: absolute;
+    position: fixed;
     top: 50px;
     right: 50px;
     background-color: #222;
